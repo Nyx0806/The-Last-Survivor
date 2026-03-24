@@ -1,0 +1,11 @@
+Model Information:
+* title:	PS1 Style Weathered .45 Ammo Box
+* source:	https://sketchfab.com/3d-models/ps1-style-weathered-45-ammo-box-beb1090fcff242d1a05ad294b215b197
+* author:	Jan_Strydom (https://sketchfab.com/JanStrydom)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PS1 Style Weathered .45 Ammo Box" (https://sketchfab.com/3d-models/ps1-style-weathered-45-ammo-box-beb1090fcff242d1a05ad294b215b197) by Jan_Strydom (https://sketchfab.com/JanStrydom) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

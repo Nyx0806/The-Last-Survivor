@@ -1,0 +1,596 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.053661566227674484,
+        0.05366151034832001,
+        0.04319164156913757
+      ],
+      "min": [
+        -0.05366149917244911,
+        -0.05366154760122299,
+        -0.000866178423166275
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2844,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.9996983408927917,
+        0.999698281288147,
+        1.0
+      ],
+      "min": [
+        -0.9996983408927917,
+        -0.9996983408927917,
+        -0.7585684657096863
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.999999463558197,
+        0.9999948143959045,
+        0.999698281288147,
+        1.0
+      ],
+      "min": [
+        -0.999999463558197,
+        -0.9999948740005493,
+        -0.9920731782913208,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.9782192707061768,
+        0.9684915542602539
+      ],
+      "min": [
+        0.023291438817977905,
+        0.0030267611145973206
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 906,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5688,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.053661566227674484,
+        0.05366151034832001,
+        0.04319164156913757
+      ],
+      "min": [
+        -0.05366149917244911,
+        -0.05366154760122299,
+        -0.000866178423166275
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8532,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.9996983408927917,
+        0.999698281288147,
+        1.0
+      ],
+      "min": [
+        -0.9996983408927917,
+        -0.9996983408927917,
+        -0.7585684657096863
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 3792,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.999999463558197,
+        0.9999948143959045,
+        0.999698281288147,
+        1.0
+      ],
+      "min": [
+        -0.999999463558197,
+        -0.9999948740005493,
+        -0.9920731782913208,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1896,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.9782192707061768,
+        0.9684915542602539
+      ],
+      "min": [
+        0.023291438817977905,
+        0.0030267611145973206
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3624,
+      "componentType": 5125,
+      "count": 906,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 11376,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.053661566227674484,
+        0.05366151034832001,
+        0.04319164156913757
+      ],
+      "min": [
+        -0.05366149917244911,
+        -0.05366154760122299,
+        -0.000866178423166275
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 14220,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.9996983408927917,
+        0.999698281288147,
+        1.0
+      ],
+      "min": [
+        -0.9996983408927917,
+        -0.9996983408927917,
+        -0.7585684657096863
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 7584,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.999999463558197,
+        0.9999948143959045,
+        0.999698281288147,
+        1.0
+      ],
+      "min": [
+        -0.999999463558197,
+        -0.9999948740005493,
+        -0.9920731782913208,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3792,
+      "componentType": 5126,
+      "count": 237,
+      "max": [
+        0.9782192707061768,
+        0.9684915542602539
+      ],
+      "min": [
+        0.023291438817977905,
+        0.0030267611145973206
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 7248,
+      "componentType": 5125,
+      "count": 906,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "mickeymoose1204 (https://sketchfab.com/mickeymoose1204)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/canned-food-621a3879d0a445e6afb56cf701c21fad",
+      "title": "Canned Food"
+    },
+    "generator": "Sketchfab-12.64.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 10872,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5688,
+      "byteOffset": 10872,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17064,
+      "byteOffset": 16560,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11376,
+      "byteOffset": 33624,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 45000,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Can2_baseColor.png"
+    },
+    {
+      "uri": "textures/Can2_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Can2_normal.png"
+    },
+    {
+      "uri": "textures/Can1_baseColor.png"
+    },
+    {
+      "uri": "textures/Can1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Can1_normal.png"
+    },
+    {
+      "uri": "textures/Can3_baseColor.png"
+    },
+    {
+      "uri": "textures/Can3_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Can3_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Can2",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Can1",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Can3",
+      "normalTexture": {
+        "index": 8
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "CannedFood_Can2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "CannedFood.001_Can1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "CannedFood.002_Can3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Can.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "CannedFood"
+    },
+    {
+      "mesh": 0,
+      "name": "CannedFood_Can2_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        -12.960208892822266,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "CannedFood.001"
+    },
+    {
+      "mesh": 1,
+      "name": "CannedFood.001_Can1_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        13.361294746398926,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "CannedFood.002"
+    },
+    {
+      "mesh": 2,
+      "name": "CannedFood.002_Can3_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    }
+  ]
+}
