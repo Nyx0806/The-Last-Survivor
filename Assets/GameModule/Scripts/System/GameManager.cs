@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
         gameOverPanel = panel;
     }
 
-    // ===== WIN CHECK (chỉ dùng cho yêu cầu môn học) =====
+    // ===== WIN CHECK =====
     public void CheckWinCondition()
     {
         int alive = EnemyPool.Instance.GetAliveEnemyCount();

@@ -273,7 +273,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (audioSource == null) return;
 
-        soundTimer -= Time.deltaTime; // Trừ dần thời gian
+        soundTimer -= Time.deltaTime;
 
         if (soundTimer <= 0)
         {
@@ -285,7 +285,7 @@ public class EnemyAI : MonoBehaviour
             }
             else if (currentState == EnemyState.Chase && chaseSounds.Length > 0)
             {
-                // Phát tiếng lúc rượt đuổi (Tần suất kêu nhanh hơn, ví dụ 2 đến 4 giây)
+                // Phát tiếng lúc rượt đuổi
                 audioSource.PlayOneShot(chaseSounds[Random.Range(0, chaseSounds.Length)]);
                 soundTimer = Random.Range(2f, 4f); 
             }
@@ -298,10 +298,8 @@ public class EnemyAI : MonoBehaviour
 
     public void StunEnemy(float duration)
     {
-        // Nếu đã chết thì không làm gì cả
         if (statsData == null || !gameObject.activeInHierarchy) return;
 
-        // Nếu đang bị khựng mà lại ăn đạn tiếp -> Hủy bộ đếm cũ, đếm lại từ đầu
         if (stunCoroutine != null) StopCoroutine(stunCoroutine);
         
         stunCoroutine = StartCoroutine(StunRoutine(duration));
@@ -309,21 +307,18 @@ public class EnemyAI : MonoBehaviour
 
     private System.Collections.IEnumerator StunRoutine(float duration)
     {
-        isStunned = true; // Bật cờ khóa não
+        isStunned = true;
 
-        // Khóa chân NavMesh Agent ngay lập tức
         if (agent != null && agent.isActiveAndEnabled && agent.isOnNavMesh)
         {
             agent.isStopped = true; 
-            agent.velocity = Vector3.zero; // Xóa sạch đà di chuyển để không bị trượt (ice-skating)
+            agent.velocity = Vector3.zero;
         }
 
-        // Chờ chạy hết animation Hit
         yield return new WaitForSeconds(duration);
 
-        isStunned = false; // Mở khóa não
+        isStunned = false; 
 
-        // Cho phép di chuyển lại và khôi phục tốc độ đúng theo State hiện tại
         if (agent != null && agent.isActiveAndEnabled && agent.isOnNavMesh)
         {
             agent.isStopped = false;

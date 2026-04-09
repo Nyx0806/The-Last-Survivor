@@ -70,10 +70,10 @@ public class ItemSpawnPoint : MonoBehaviour
         timer = 0;
     }
 
+    // Vẽ vòng tròn mô phỏng vùng spawn
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        // Vẽ vòng tròn mô phỏng vùng spawn
         int segments = 32;
         float angleStep = 360f / segments;
         Vector3 lastPoint = transform.position + new Vector3(spawnRadius, 0, 0);

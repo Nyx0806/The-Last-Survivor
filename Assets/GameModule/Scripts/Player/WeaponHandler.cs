@@ -32,7 +32,7 @@ public class WeaponHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI ammoText;
 
     [Header("States")]
-    public bool isStunned = false; //có đang bị choáng không
+    public bool isStunned = false; 
 
     [Header("Shooting Effects")]
     [SerializeField] private string shootStateName = "Fire_Rifle";
@@ -152,12 +152,10 @@ public class WeaponHandler : MonoBehaviour
         
         if (Physics.Raycast(ray, out RaycastHit hit, shootRange * 2f, aimLayerMask))
         {
-            // Trượt mục tiêu tới điểm va chạm
             aimTarget.position = Vector3.Lerp(aimTarget.position, hit.point, Time.deltaTime * 20f);
         }
         else
         {
-            // Nếu không chạm gì (ví dụ ngước lên trời), đẩy mục tiêu ra thật xa
             aimTarget.position = Vector3.Lerp(aimTarget.position, ray.GetPoint(shootRange * 2f), Time.deltaTime * 20f);
         }
     }

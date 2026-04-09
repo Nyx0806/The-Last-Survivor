@@ -34,7 +34,7 @@ public class PlayerStatsUI : MonoBehaviour
 
     private IEnumerator FadeOutBlood()
     {
-        // Bật rõ viền máu lên
+        // Bật rõ viền máu
         Color c = bloodScreen.color;
         c.a = 0.5f; 
         bloodScreen.color = c;

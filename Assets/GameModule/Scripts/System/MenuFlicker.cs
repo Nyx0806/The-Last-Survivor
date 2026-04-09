@@ -15,7 +15,7 @@ public class MenuFlicker : MonoBehaviour
 
     IEnumerator FlickerRoutine() {
         while (true) {
-            // Tạo độ trễ ngẫu nhiên để nhấp nháy không bị đều quá
+            // Tạo độ trễ ngẫu nhiên
             float waitTime = Random.Range(0.05f, 0.2f);
             yield return new WaitForSeconds(waitTime);
             
